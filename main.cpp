@@ -42,5 +42,6 @@ int main(void)
 
     cout << process(chachki, n) << endl;
 
+    delete[] chachki;
     return 0;
 }
