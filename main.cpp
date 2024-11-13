@@ -18,7 +18,7 @@ int main(void)
     cin >> n;
 
     // INPUT ARR(N) (грамовка чашек)
-    long chachki[n];
+    long *chachki = new long[n];
     for (short i = 0; i < n; i++) { cin >> chachki[i]; }
 
     // SORTING (грамовку)
