@@ -1,8 +1,3 @@
-# n = int(input())
-# gramovki = list(map(int, input().split()))
-
-
-
 def sum(arr: list) -> int:
     sm = 0
     for i in arr:
@@ -18,7 +13,6 @@ def sort(arr: list) -> list:
     return arr
 
 print(sort([9, 8, 7, 6, 4, 3, 9]))
-
 
 def f(free, misha=0, petya=0):
 
@@ -36,14 +30,11 @@ def f(free, misha=0, petya=0):
         return f(free[1:], misha, petya)
         
 
-
 print(
     f([
         1, 2, 3, 4, 5, 6, 7, 8, 9
     ])
 )
-
-
 
 print(
     f([
